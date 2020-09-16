@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/textview_prev_sale"
+        android:layout_width="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="?listPreferredItemHeightSmall"
+        android:background="@color/color_green_dark"
+        android:gravity="center"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textview_sales_target"
+        android:layout_width="100dp"
+        android:layout_height="?listPreferredItemHeightSmall"
+
+        android:background="@color/color_green_dark"
+        android:gravity="center"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="@+id/textview_prev_sale"
+        app:layout_constraintStart_toEndOf="@+id/textview_prev_sale"
+        app:layout_constraintTop_toTopOf="@+id/textview_prev_sale" />
+
+    <TextView
+        android:id="@+id/textview_sales_arch"
+        android:layout_width="100dp"
+        android:layout_height="?listPreferredItemHeightSmall"
+
+        android:background="@color/color_green_dark"
+        android:gravity="center"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="@+id/textview_sales_target"
+        app:layout_constraintStart_toEndOf="@+id/textview_sales_target"
+        app:layout_constraintTop_toTopOf="@+id/textview_sales_target" />
+
+    <TextView
+        android:id="@+id/textview_ach"
+        android:layout_width="100dp"
+        android:layout_height="?listPreferredItemHeightSmall"
+
+        android:background="@color/color_green_dark"
+        android:gravity="center"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="@+id/textview_sales_arch"
+        app:layout_constraintStart_toEndOf="@+id/textview_sales_arch"
+        app:layout_constraintTop_toTopOf="@+id/textview_sales_arch" />
+
+    <TextView
+        android:id="@+id/textview_balance"
+        android:layout_width="100dp"
+        android:layout_height="?listPreferredItemHeightSmall"
+
+        android:background="@color/color_green_dark"
+        android:gravity="center"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="@+id/textview_ach"
+        app:layout_constraintStart_toEndOf="@+id/textview_ach"
+        app:layout_constraintTop_toTopOf="@+id/textview_ach" />
+
+    <TextView
+        android:id="@+id/textview_comp"
+        android:layout_width="100dp"
+        android:layout_height="?listPreferredItemHeightSmall"
+
+        android:background="@color/color_green_dark"
+        android:gravity="center"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="@+id/textview_balance"
+        app:layout_constraintStart_toEndOf="@+id/textview_balance"
+        app:layout_constraintTop_toTopOf="@+id/textview_balance" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

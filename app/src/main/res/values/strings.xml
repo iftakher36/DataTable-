@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="month_name">Month\nName</string>
+    <string name="prev_sale">Prev.\nSales</string>
+    <string name="sale_target">Sales\nTarget</string>
+    <string name="sale_ach">Sales\nAch.</string>
+    <string name="sale_ach_persent">Ach%</string>
+    <string name="balance">Bal.</string>
+    <string name="Comp">Comp.</string>
+    <string name="Utd">UTD</string>
+    <string name="Total">Total</string>
+
+
+
+    <string name="m1">January</string>
+    <string name="m2">February</string>
+    <string name="m3">March</string>
+    <string name="m4">April</string>
+    <string name="m5">May</string>
+    <string name="m6">June</string>
+    <string name="m7">July</string>
+    <string name="m8">August</string>
+    <string name="m9">September</string>
+    <string name="m10">October</string>
+    <string name="m11">November</string>
+    <string name="m12">December</string>
+
+
+
+</resources>
